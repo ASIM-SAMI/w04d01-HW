@@ -24,3 +24,16 @@ var isCool = function (person) {
 };
 
 // Your code goes here
+
+var coolPeople = people.filter((element)=>{
+
+   return isCool(element);
+
+})
+
+console.log(coolPeople)
+
+for (each in coolPeople){
+	console.log(`Name: ${coolPeople[each].name} , coolnessScore: ${coolPeople[each].coolnessScore}`)
+}
+
