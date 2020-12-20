@@ -9,3 +9,13 @@ var mneumonics = [
 // ['My', 'Very', 'Excellent', 'Mother', 'Just', 'Sent', 'Me', 'Nine', 'Pizzas']
 
 // Your code here!
+
+
+var newArray = mneumonics.map(element => {
+
+	 var strSplit = element.split(" ")
+      return strSplit;
+
+})
+
+console.log(newArray)
