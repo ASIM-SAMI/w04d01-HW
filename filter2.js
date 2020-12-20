@@ -13,3 +13,12 @@ var misc = [
 // Don't worry about strings in the nested array (misc[5] is considered an array, not a string)
 
 // Your code goes here
+
+var strings = misc.filter((element)=>{
+
+    return typeof element === "string"
+
+})
+
+
+console.log(strings)
